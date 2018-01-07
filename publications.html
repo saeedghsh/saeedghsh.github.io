@@ -1,0 +1,61 @@
+---
+layout: page
+title: Publications
+extra_js:
+  - bibtex_js-min.js
+---
+
+<textarea id="bibtex_input" style="display:none;">
+    {% include_relative publications.bib %}
+</textarea>
+
+<div class="bibtex_template" style="display:none;">
+    <p>
+      <span>
+        <span class="author"></span>.<br>
+        <span class="if title" style="font-weight: bold;">
+          <span class="title"></span>     
+          <br>
+        </span>
+        <span class="if booktitle" style="font-style: italic;">
+          <span class="booktitle"></span>,
+          <span class="if address" style="font-style: normal;">
+        <span class="address"></span>
+          </span>     
+        </span>
+        <span class="if journal" style="font-style: italic;">
+          <span class="journal"></span>
+        </span>
+        <span style="if publisher">
+          <span class="publisher"></span>
+        </span>
+        <span style="if school">
+          <span class="school"></span>
+        </span>
+        <span class="if volume">
+          <span class="volume"></span>
+          <span class="if number">
+        (<span class="number"></span>)
+          </span>
+          <span class="if pages">
+        :<span class="pages"></span>
+          </span>
+        </span>
+        <span class="if edition">
+          <span class="edition"></span> ed.,
+        </span>
+        <span class="year"></span>
+      </span>
+      
+      <span class="if url">
+        <a class="url" style="">[URL]</a>
+      </span>
+      <span class="if pdf">
+        <a class="pdf" style="">[PDF]</a>
+      </span>
+    </p>
+</div>
+
+<!-- <ol> -->
+<div id="bibtex_display"></div>
+<!-- </ol> -->
