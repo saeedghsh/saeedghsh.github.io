@@ -7,6 +7,9 @@ title: Home
 {% capture about %}{% include section-about.md %}{% endcapture %}
 {{ about | markdownify }}
 
+<h2 id="publications">Publications</h2>
+{% capture publications %}{% include section-publications.md %}{% endcapture %}
+{{ publications | markdownify }}
 
 <h2 id="contact">Contact</h2> 
 {% capture contact %}{% include section-contact.md %}{% endcapture %}
