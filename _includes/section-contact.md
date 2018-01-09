@@ -5,8 +5,6 @@ Feel free to [E-Mail](http://www.google.com/recaptcha/mailhide/d?k=01tE3fdtc5PWa
   "@type" : "Person",
   "name" : "Saeed Gholami Shahbandi",
   "url" : "https://saeed.im",
-  "sameAs" : [ "https://twitter.com/saeedghsh",
-      "https://github.com/saeedghsh",
-      "https://www.linkedin.com/in/saeedghsh"]
+  "sameAs" : [ "https://twitter.com/saeedghsh", "https://github.com/saeedghsh", "https://www.linkedin.com/in/saeedghsh"]
 }
 </script>
