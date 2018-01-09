@@ -4,10 +4,11 @@ title: Home
 ---
 
 <h2 id="about">About Me</h2> 
-
 {% capture about %}{% include section-about.md %}{% endcapture %}
 {{ about | markdownify }}
 
+
+<h2 id="contact">Contact</h2> 
 {% capture contact %}{% include section-contact.md %}{% endcapture %}
 {{ contact | markdownify }}
 
