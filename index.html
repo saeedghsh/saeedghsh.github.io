@@ -8,6 +8,9 @@ title: Home
 {% capture about %}{% include section-about.md %}{% endcapture %}
 {{ about | markdownify }}
 
+{% capture contact %}{% include section-contact.md %}{% endcapture %}
+{{ contact | markdownify }}
+
 <hr />
 <p style="text-align:right; color: gray">
   <small>Last update: {{ site.time }}</small>
