@@ -27,3 +27,5 @@ gems:
   - jekyll-sitemap
 
 exclude: [vendor]
+
+500px_consumer_key_file: 500pxAPIconsumerkey
