@@ -35,6 +35,17 @@ The script preserves orientation and converts embedded color profiles to sRGB, e
 2200-pixel display images without upscaling, and leaves the originals unchanged. Normal site builds use the committed
 web copies and do not need Pillow or the originals.
 
+Edit `docs/photography.md` to change captions, reorder photographs, or move them between sections. To add a photograph,
+generate its two WebP sizes, then copy an existing `<figure>` block into the appropriate `photo-gallery` section. Set
+`src` to its thumbnail and `data-src` to its display copy; keep paths relative to `docs/`, starting with `assets/`.
+Update the descriptive `alt` text, caption, and thumbnail dimensions. The `on-glb` class enables Zensical's native
+lightbox; `data-gallery="photography"` lets visitors move between all photos in the overlay. Without JavaScript, the
+same links open the display images directly.
+
+`make check` verifies that every display image appears exactly once, with a lazy-loaded thumbnail, description,
+dimensions, and a working lightbox link. Commit both WebP directories along with the page changes. GitHub Actions
+publishes those committed copies; the local originals remain outside version control.
+
 ### Build the website
 
 With Python 3.12 or newer, including `venv` and `pip`:

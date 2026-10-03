@@ -11,6 +11,8 @@ class Page(HTMLParser):
         super().__init__()
         self.ids = set()
         self.links = []
+        self.gallery_images = []
+        self.gallery_links = []
         self.h1_count = 0
         self.feed(path.read_text())
 
@@ -20,6 +22,10 @@ class Page(HTMLParser):
             self.ids.add(attrs["id"])
         if tag == "h1":
             self.h1_count += 1
+        if tag == "img" and "on-glb" in attrs.get("class", "").split():
+            self.gallery_images.append(attrs)
+        if tag == "a" and attrs.get("data-gallery") == "photography":
+            self.gallery_links.append(attrs.get("href", ""))
         for attr in ("href", "src"):
             if attrs.get(attr):
                 self.links.append(attrs[attr])
@@ -63,6 +69,21 @@ for anchor in ("about", "profiles"):
         errors.append(f"Missing homepage anchor #{anchor}")
 json.loads((root / "search.json").read_text())
 
+gallery = pages[root / "photography/index.html"]
+display_files = {p.name for p in (root / "assets/photography/display").glob("*.webp")}
+image_names = [Path(img.get("src", "")).name for img in gallery.gallery_images]
+link_names = [Path(urlsplit(link).path).name for link in gallery.gallery_links]
+if not display_files or set(image_names) != display_files or set(link_names) != display_files:
+    errors.append("Photography: every display image must have a thumbnail and lightbox link")
+if len(image_names) != len(display_files) or len(link_names) != len(display_files):
+    errors.append("Photography: duplicate or missing gallery entries")
+for img in gallery.gallery_images:
+    if not img.get("alt") or not img.get("width") or not img.get("height"):
+        errors.append(f"Photography: missing image description or dimensions: {img.get('src')}")
+    if img.get("loading") != "lazy" or "/thumbnails/" not in img.get("src", ""):
+        errors.append(f"Photography: gallery must use lazy-loaded thumbnails: {img.get('src')}")
+
 if errors:
     raise SystemExit("\n".join(errors))
 print(f"Checked {len(pages)} pages, local links, anchors, search data, and legacy routes.")
+print(f"Checked {len(display_files)} gallery images and lightbox links.")
