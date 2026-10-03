@@ -3,7 +3,7 @@
 {% block extrahead %}
   {{ super() }}
   <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ 'atom.xml' | url }}">
-  {% if page and page.url in ["", "contact/"] %}
+  {% if page and page.url == "" %}
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
