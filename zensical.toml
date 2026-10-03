@@ -10,7 +10,7 @@ nav = [
   { "Research" = "research.md" },
   { "Photography" = "photography.md" },
 ]
-extra_css = ["stylesheets/extra.css"]
+extra_css = ["stylesheets/extra.css", "stylesheets/photography.css"]
 copyright = 'Saeed Gholami Shahbandi · <a href="/license/">License and credits</a>'
 
 [project.theme]
@@ -21,3 +21,7 @@ palette.primary = "indigo"
 palette.accent = "blue"
 favicon = "public/favicon.ico"
 icon.logo = "lucide/user-round"
+
+[project.plugins.glightbox]
+auto = false
+auto_caption = true
