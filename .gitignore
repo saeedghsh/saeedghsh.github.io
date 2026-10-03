@@ -1,11 +1,5 @@
 site_dev/
 draft/
-vendor/
-.bundle/
-_site/
-.sass-cache/
-.jekyll-metadata
-Gemfile.lock
 
 
 google_analytics
