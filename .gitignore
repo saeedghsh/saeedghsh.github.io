@@ -5,7 +5,7 @@ draft/
 google_analytics
 
 500pxAPIconsumerkey
-instagram_access_token
+*_access_token
 # Zensical build and local environment
 .venv/
 site/

@@ -1,7 +1,6 @@
 # Photography
 
-I enjoy photography. Find more of my photographs on [500px](https://500px.com/saeedghsh) and
-[Instagram](https://www.instagram.com/saeedghsh/).
+I enjoy photography. Find more of my photographs on [500px](https://500px.com/saeedghsh).
 
 ## Selected photographs
 
