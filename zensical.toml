@@ -6,8 +6,12 @@ site_author = "Saeed Gholami Shahbandi"
 repo_url = "https://github.com/saeedghsh/saeedghsh.github.io"
 nav = [
   { "Home" = "index.md" },
+  { "About" = "about.md" },
   { "Research" = "research.md" },
   { "Publications" = "publications.md" },
+  { "Photography" = "photography.md" },
+  { "Reading" = "reading.md" },
+  { "Contact" = "contact.md" },
 ]
 extra_css = ["stylesheets/extra.css"]
 copyright = 'Saeed Gholami Shahbandi · <a href="/license/">License and credits</a>'
