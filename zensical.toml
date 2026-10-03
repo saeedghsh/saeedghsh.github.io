@@ -8,7 +8,6 @@ nav = [
   { "Home" = "index.md" },
   { "About" = "about.md" },
   { "Research" = "research.md" },
-  { "Publications" = "publications.md" },
   { "Photography" = "photography.md" },
 ]
 extra_css = ["stylesheets/extra.css"]

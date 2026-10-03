@@ -8,6 +8,7 @@ Systems Research
 ([CAISR](http://hh.se/english/schoolofinformationtechnology/research/caisrcenterforappliedintelligentsystemsresearch.11375.html)).
 My research interests are Autonomous Mobile Robot applications, Machine learning, and Computer Vision.
 
-More on my [*Research*](research.md) (+projects) and [*Publications*](publications.md) (+theses).
+More on my [*Research*](research.md) (+projects) and
+[publications on Google Scholar](https://scholar.google.com/citations?hl=en&user=5j4Fp9IAAAAJ).
 
 I enjoy reading, [photography](photography.md) ([500px](https://500px.com/saeedghsh)), and climbing.
