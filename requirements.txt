@@ -1,0 +1,4 @@
+zensical==0.0.51
+mdformat==1.0.0
+rumdl==0.2.53
+yamllint==1.38.0

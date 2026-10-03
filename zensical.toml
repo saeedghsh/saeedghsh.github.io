@@ -1,0 +1,17 @@
+[project]
+site_name = "Saeed Gholami Shahbandi"
+site_url = "https://saeed.im/"
+site_description = "Personal website of Saeed Gholami Shahbandi. Robotics, machine learning, computer vision and photography."
+site_author = "Saeed Gholami Shahbandi"
+repo_url = "https://github.com/saeedghsh/saeedghsh.github.io"
+nav = [{ "Home" = "index.md" }]
+extra_css = ["stylesheets/extra.css"]
+copyright = 'Saeed Gholami Shahbandi · <a href="/license/">License and credits</a>'
+
+[project.theme]
+variant = "modern"
+features = ["navigation.tabs"]
+palette.primary = "indigo"
+palette.accent = "blue"
+favicon = "public/favicon.ico"
+icon.logo = "lucide/user-round"

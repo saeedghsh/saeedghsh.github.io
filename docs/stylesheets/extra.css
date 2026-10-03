@@ -1,0 +1,11 @@
+/* increase H2 weight + separator to emphasize H2 */
+.md-typeset h2 {
+    font-weight: 700;
+    border-bottom: 1px solid var(--md-default-fg-color--lighter);
+    padding-bottom: 0.25em;
+}
+
+/* decrease H3 weight to emphasize H2 */
+.md-typeset h3 {
+    font-weight: 500;
+}
