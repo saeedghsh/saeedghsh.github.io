@@ -18,10 +18,9 @@ More on my [research and projects](research.md) and [publications and theses](pu
 I enjoy [reading](reading.md), [photography](photography.md), and climbing. You can also find my photographs on
 [500px](https://500px.com/saeedghsh).
 
-## Contact
+## Profiles
 
-Contact me via
-[E-Mail](http://www.google.com/recaptcha/mailhide/d?k=01tE3fdtc5PWagBP5AN3hInQ==&c=1YjiecfUTeq36sfpBz22wA==), or find me
-on [Twitter](https://twitter.com/saeedghsh), [GitHub](https://github.com/saeedghsh),
-[LinkedIn](https://www.linkedin.com/in/saeedghsh), or
-[ResearchGate](https://www.researchgate.net/profile/Saeed_Gholami_Shahbandi).
+- [GitHub](https://github.com/saeedghsh)
+- [LinkedIn](https://www.linkedin.com/in/saeedghsh)
+- [ResearchGate](https://www.researchgate.net/profile/Saeed_Gholami_Shahbandi)
+- [Google Scholar](https://scholar.google.com/citations?hl=en&user=5j4Fp9IAAAAJ)

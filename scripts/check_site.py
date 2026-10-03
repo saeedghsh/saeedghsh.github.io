@@ -58,7 +58,7 @@ for path, page in pages.items():
 
 if (root / "CNAME").read_text().strip() != "saeed.im":
     errors.append("Custom domain must remain saeed.im")
-for anchor in ("about", "contact"):
+for anchor in ("about", "profiles"):
     if anchor not in pages[root / "index.html"].ids:
         errors.append(f"Missing homepage anchor #{anchor}")
 json.loads((root / "search.json").read_text())
