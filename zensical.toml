@@ -18,6 +18,7 @@ copyright = 'Saeed Gholami Shahbandi · <a href="/license/">License and credits<
 
 [project.theme]
 variant = "modern"
+custom_dir = "overrides"
 features = ["navigation.tabs"]
 palette.primary = "indigo"
 palette.accent = "blue"

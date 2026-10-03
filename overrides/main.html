@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ 'atom.xml' | url }}">
+  {% if page and page.url in ["", "contact/"] %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Saeed Gholami Shahbandi",
+        "url": "https://saeed.im/",
+        "sameAs": [
+          "https://twitter.com/saeedghsh",
+          "https://github.com/saeedghsh",
+          "https://www.linkedin.com/in/saeedghsh"
+        ]
+      }
+    </script>
+  {% endif %}
+{% endblock %}
