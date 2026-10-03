@@ -11,7 +11,7 @@ Sweden, as a PhD candidate. I finished my PhD in June 2018 with the Center for A
 My [dissertation](http://urn.kb.se/resolve?urn=urn:nbn:se:hh:diva-36699) explores the interpretation and alignment of 2D
 indoor maps.
 
-More on my [research and projects](/research/) and [publications and theses](/publications/).
+More on my [research and projects](research.md) and [publications and theses](publications.md).
 
 ## Beyond research
 
