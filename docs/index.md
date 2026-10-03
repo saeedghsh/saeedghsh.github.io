@@ -15,8 +15,8 @@ More on my [research and projects](research.md) and [publications and theses](pu
 
 ## Beyond research
 
-I enjoy [reading](https://www.goodreads.com/user/show/18867219-saeed), [photography](photography.md), and climbing. You
-can also find my photographs on [500px](https://500px.com/saeedghsh).
+I enjoy [reading](reading.md), [photography](photography.md), and climbing. You can also find my photographs on
+[500px](https://500px.com/saeedghsh).
 
 ## Contact
 

@@ -10,5 +10,4 @@ My research interests are Autonomous Mobile Robot applications, Machine learning
 
 More on my [*Research*](research.md) (+projects) and [*Publications*](publications.md) (+theses).
 
-I enjoy [reading](https://www.goodreads.com/user/show/18867219-saeed), [photography](photography.md)
-([500px](https://500px.com/saeedghsh)), and climbing.
+I enjoy [reading](reading.md), [photography](photography.md) ([500px](https://500px.com/saeedghsh)), and climbing.
