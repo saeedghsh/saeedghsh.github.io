@@ -18,6 +18,25 @@ interests section via `docs/reading/index.html`. Put downloadable files in `docs
 
 ## Preview and check
 
+### Prepare photographs
+
+The gallery uses committed WebP copies in `docs/assets/photography/thumbnails/` and `docs/assets/photography/display/`.
+Full-resolution JPEGs stay local in `docs/assets/photography/` and are ignored by Git. Keep a separate backup of those
+originals; they are not included when cloning this repository.
+
+To create or refresh the web copies after adding `.jpg` originals:
+
+```sh
+.venv/bin/python -m pip install -r requirements-images.txt
+.venv/bin/python scripts/prepare_photos.py
+```
+
+The script preserves orientation and converts embedded color profiles to sRGB, exports 640-pixel thumbnails and
+2200-pixel display images without upscaling, and leaves the originals unchanged. Normal site builds use the committed
+web copies and do not need Pillow or the originals.
+
+### Build the website
+
 With Python 3.12 or newer, including `venv` and `pip`:
 
 ```sh

@@ -10,3 +10,6 @@ google_analytics
 .venv/
 site/
 .cache/
+
+# Keep full-resolution photo originals locally; commit the optimized WebP copies.
+/docs/assets/photography/*.jpg
