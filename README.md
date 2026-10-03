@@ -8,13 +8,13 @@ commit `e1be1d4`).
 ## Edit content
 
 Each page is an ordinary Markdown file in `docs/`: `index.md`, `about.md`, `research.md`, `publications.md`,
-`photography.md`, `reading.md`, and `license.md`. Navigation and site settings live in `zensical.toml`; the small
-heading adjustments are in `docs/stylesheets/extra.css`. `overrides/` preserves the personal metadata and a helpful 404
-page.
+`photography.md` and `license.md`. Navigation and site settings live in `zensical.toml`; the small heading adjustments
+are in `docs/stylesheets/extra.css`. `overrides/` preserves the personal metadata and a helpful 404 page.
 
 Use relative Markdown links between pages, such as `[Research](research.md)`. Zensical creates the existing clean URLs,
 including `/research/` and `/publications/`. The retired `/contact/` URL redirects to the homepage Profiles section via
-`docs/contact/index.html`. Put downloadable files in `docs/assets/`.
+`docs/contact/index.html`. The retired `/reading/` URL redirects to the homepage interests section via
+`docs/reading/index.html`. Put downloadable files in `docs/assets/`.
 
 ## Preview and check
 

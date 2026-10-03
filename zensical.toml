@@ -10,7 +10,6 @@ nav = [
   { "Research" = "research.md" },
   { "Publications" = "publications.md" },
   { "Photography" = "photography.md" },
-  { "Reading" = "reading.md" },
 ]
 extra_css = ["stylesheets/extra.css"]
 copyright = 'Saeed Gholami Shahbandi · <a href="/license/">License and credits</a>'
