@@ -1,4 +1,4 @@
-# Online Profiles
+# Profiles
 
 - [GitHub](https://github.com/saeedghsh)
 - [LinkedIn](https://www.linkedin.com/in/saeedghsh)
