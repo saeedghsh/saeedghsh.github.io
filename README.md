@@ -7,14 +7,18 @@ commit `e1be1d4`).
 
 ## Edit content
 
-Each page is an ordinary Markdown file in `docs/`: `index.md`, `about.md`, `research.md`, `photography.md` and
-`license.md`. Navigation and site settings live in `zensical.toml`; the small heading adjustments are in
-`docs/stylesheets/extra.css`. `overrides/` preserves the personal metadata and a helpful 404 page.
+Each page is an ordinary Markdown file in `docs/`: `index.md`, `research.md`, `photography.md`, `projects.md`,
+`profiles.md`, and `license.md`. Navigation and site settings live in `zensical.toml`; the small heading adjustments are
+in `docs/stylesheets/extra.css`. `overrides/` preserves the personal metadata and a helpful 404 page.
 
 Use relative Markdown links between pages, such as `[Research](research.md)`. Zensical creates clean URLs such as
-`/research/`. The retired `/contact/` and `/publications/` URLs redirect to the homepage Profiles section via
-`docs/contact/index.html` and `docs/publications/index.html`. The retired `/reading/` URL redirects to the homepage
-interests section via `docs/reading/index.html`. Put downloadable files in `docs/assets/`.
+`/research/`. The retired `/contact/` and `/publications/` URLs redirect to `/profiles/` via `docs/contact/index.html`
+and `docs/publications/index.html`. The retired `/about/` and `/reading/` URLs redirect to the homepage. Put
+downloadable files in `docs/assets/`.
+
+The Projects page links to separately hosted GitHub Pages projects under the same domain: `/quiz_games/`,
+`/distribution_playground/`, and `/vazhe/`. These are explicitly excluded from local-file validation in
+`scripts/check_site.py`; they are not built by this repository.
 
 ## Preview and check
 

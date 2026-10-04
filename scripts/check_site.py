@@ -34,10 +34,13 @@ class Page(HTMLParser):
 root = Path("site").resolve()
 pages = {path: Page(path) for path in root.rglob("*.html")}
 errors = []
+# These paths are separate GitHub Pages projects sharing the custom domain.
+external_project_paths = ("/quiz_games", "/distribution_playground", "/vazhe")
 expected = [
     "index.html", "about/index.html", "research/index.html",
     "publications/index.html", "photography/index.html", "reading/index.html",
-    "contact/index.html", "license/index.html", "404.html",
+    "contact/index.html", "profiles/index.html", "projects/index.html",
+    "license/index.html", "404.html",
     "assets/saeed_MScThesis_2012.pdf", "public/favicon.ico",
     "CNAME", "robots.txt", "atom.xml", "sitemap.xml", "search.json",
 ]
@@ -53,6 +56,8 @@ for path, page in pages.items():
         url = urlsplit(urljoin("https://saeed.im/" + str(relative), link))
         if url.scheme not in ("http", "https") or url.netloc != "saeed.im":
             continue
+        if any(url.path == path or url.path.startswith(path + "/") for path in external_project_paths):
+            continue
         target = root / unquote(url.path).lstrip("/")
         if target.is_dir():
             target /= "index.html"
@@ -64,9 +69,6 @@ for path, page in pages.items():
 
 if (root / "CNAME").read_text().strip() != "saeed.im":
     errors.append("Custom domain must remain saeed.im")
-for anchor in ("about", "profiles"):
-    if anchor not in pages[root / "index.html"].ids:
-        errors.append(f"Missing homepage anchor #{anchor}")
 json.loads((root / "search.json").read_text())
 
 gallery = pages[root / "photography/index.html"]
