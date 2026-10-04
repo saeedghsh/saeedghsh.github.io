@@ -1,13 +1,13 @@
 # Research
 
-**How Did I Get Here (A Short Story):** I have a BSc degree in Electronics from Mazandaran University (Iran, 2010),
-for which A. Jaloo and I delivered a thesis project on *Implementation of Soft-Viterbi Decoder on FPGA (VHDl)* under
-the supervision of Dr. M. Zahabi. My Msc degree is in Robotics from École centrale de Nantes (France, 2012), the
-research for the thesis project (*Object Recognition From 3D Points Cloud*) was carried out under the supervision of
-Dr. P. Lucidarme as a part of [Cart-O-Matic](http://5lair.free.fr/Projects/Cartomatic/) team in Angers, France. I
-joined Cart-O-Matic in its last year of competing in the French robotics contest
-[Défi CAROTTE](https://www.defense.gouv.fr/english/dga/actualite/defi-carotte-corebots-conserve-son-titre), organized
-by the General Delegation for Armaments (Direction Générale de l’Armement, DGA) and French National Research Agency
+**How Did I Get Here (A Short Story):** I have a BSc degree in Electronics from Mazandaran University (Iran, 2010), for
+which A. Jaloo and I delivered a thesis project on *Implementation of Soft-Viterbi Decoder on FPGA (VHDl)* under the
+supervision of Dr. M. Zahabi. My Msc degree is in Robotics from École centrale de Nantes (France, 2012), the research
+for the thesis project (*Object Recognition From 3D Points Cloud*) was carried out under the supervision of Dr. P.
+Lucidarme as a part of [Cart-O-Matic](http://5lair.free.fr/Projects/Cartomatic/) team in Angers, France. I joined
+Cart-O-Matic in its last year of competing in the French robotics contest
+[Défi CAROTTE](https://www.defense.gouv.fr/english/dga/actualite/defi-carotte-corebots-conserve-son-titre), organized by
+the General Delegation for Armaments (Direction Générale de l’Armement, DGA) and French National Research Agency
 (l’Agence Nationale de la Recherche, ANR). In 2012, I joined the School of Information Technology at
 [Halmstad University](http://hh.se/english.5_en.html), Sweden, as a PhD candidate and finished my PhD (defense in June
 2018\) with the *Center for Applied Intelligent Systems Research*
@@ -20,9 +20,8 @@ learning and robot mapping.
 
 ## PhD Dissertation
 
-Some parts of my PhD research (Interpretation and Alignment of 2D Indoor Maps:
-Towards a Heterogeneous Map Representation) are accessible through these
-repositories:
+Some parts of my PhD research (Interpretation and Alignment of 2D Indoor Maps: Towards a Heterogeneous Map
+Representation) are accessible through these repositories:
 
 ### Nonrigid Optimization of 2D Map Alignment
 
