@@ -5,13 +5,6 @@
 <div class="photo-gallery">
 
 <figure>
-  <img class="on-glb" src="assets/photography/thumbnails/mg_1468.webp"
-       data-src="assets/photography/display/mg_1468.webp" data-gallery="photography"
-       alt="Asturias, Spain" width="640" height="427" loading="lazy" decoding="async">
-  <figcaption>Asturias, Spain</figcaption>
-</figure>
-
-<figure>
   <img class="on-glb" src="assets/photography/thumbnails/mg_1465.webp"
        data-src="assets/photography/display/mg_1465.webp" data-gallery="photography"
        alt="Asturias, Spain" width="427" height="640" loading="lazy" decoding="async">
@@ -26,17 +19,17 @@
 </figure>
 
 <figure>
-  <img class="on-glb" src="assets/photography/thumbnails/mg_1256.webp"
-       data-src="assets/photography/display/mg_1256.webp" data-gallery="photography"
+  <img class="on-glb" src="assets/photography/thumbnails/mg_1468.webp"
+       data-src="assets/photography/display/mg_1468.webp" data-gallery="photography"
        alt="Asturias, Spain" width="640" height="427" loading="lazy" decoding="async">
   <figcaption>Asturias, Spain</figcaption>
 </figure>
 
 <figure>
-  <img class="on-glb" src="assets/photography/thumbnails/mg_1934.webp"
-       data-src="assets/photography/display/mg_1934.webp" data-gallery="photography"
-       alt="-" width="640" height="427" loading="lazy" decoding="async">
-  <figcaption>-</figcaption>
+  <img class="on-glb" src="assets/photography/thumbnails/mg_1256.webp"
+       data-src="assets/photography/display/mg_1256.webp" data-gallery="photography"
+       alt="Asturias, Spain" width="640" height="427" loading="lazy" decoding="async">
+  <figcaption>Asturias, Spain</figcaption>
 </figure>
 
 <figure>
@@ -54,13 +47,6 @@
 </figure>
 
 <figure>
-  <img class="on-glb" src="assets/photography/thumbnails/mg_1354.webp"
-       data-src="assets/photography/display/mg_1354.webp" data-gallery="photography"
-       alt="-" width="640" height="427" loading="lazy" decoding="async">
-  <figcaption>-</figcaption>
-</figure>
-
-<figure>
   <img class="on-glb" src="assets/photography/thumbnails/mg_1355.webp"
        data-src="assets/photography/display/mg_1355.webp" data-gallery="photography"
        alt="Asturias, Spain" width="640" height="427" loading="lazy" decoding="async">
@@ -72,6 +58,20 @@
        data-src="assets/photography/display/mg_1441.webp" data-gallery="photography"
        alt="Asturias, Spain" width="640" height="427" loading="lazy" decoding="async">
   <figcaption>Asturias, Spain</figcaption>
+</figure>
+
+<figure>
+  <img class="on-glb" src="assets/photography/thumbnails/mg_1354.webp"
+       data-src="assets/photography/display/mg_1354.webp" data-gallery="photography"
+       alt="-" width="640" height="427" loading="lazy" decoding="async">
+  <figcaption>-</figcaption>
+</figure>
+
+<figure>
+  <img class="on-glb" src="assets/photography/thumbnails/mg_1934.webp"
+       data-src="assets/photography/display/mg_1934.webp" data-gallery="photography"
+       alt="-" width="640" height="427" loading="lazy" decoding="async">
+  <figcaption>-</figcaption>
 </figure>
 
 <figure>
